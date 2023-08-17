@@ -1,0 +1,415 @@
+/* --all-- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 25px;
+  font-size: 0.9em;
+  font-family: 'Noto Sans JP', 'Noto Serif JP', sans-serif;
+}
+
+.smalltext {
+  font-size: 0.8em;
+  list-style: none;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+/* --H-- */
+h2 {
+  border-bottom: 2px solid #333;
+  color: #333;
+  font-size: 16px;
+  margin: 100px auto;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+h3 {
+  border-bottom: 2px dashed #333;
+  color: #333;
+  font-size: 14px;
+  margin: 30px auto;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+
+/* --NAVBAR-- */
+.title {
+  font-family: cursive;
+}
+
+.navbar a.nav-link:hover {
+  color: #333;
+  border-bottom: 2px solid #333;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.change-color {
+  background-color: rgb(218, 208, 208);
+  transition: 0.3s;
+}
+
+.nav {
+  width: 100vw;
+}
+
+/* --TOP-- */
+.cover-top {
+  background-image: url(/Users/skmtydi947/Portfolio_profile/images/top.jpg);
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
+  position: relative;
+}
+
+.cover-top p {
+  font-size: 40px;
+  line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+.text{
+  animation: color-change 2s linear infinite;
+  margin:20px;
+  font-size:30px;
+  font-weight: bold;
+  animation-duration: 5s;
+}
+
+@keyframes color-change {
+  0%,100%{
+	color:#1a491d;
+  }
+
+  25%{
+	color:#686321;
+  }
+  
+  50%{
+	color:#20587a;
+  }
+  
+  75%{
+	color:#221a25;
+  }
+}
+
+/* --ABOUT-- */
+.cover-about {
+  background-image: url(/Users/skmtydi947/Portfolio_profile/images/about.jpg);
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
+  position: relative;
+}
+
+.about-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-container a {
+  color: rgb(74, 74, 158);
+}
+
+.about-container li {
+  font-size: 20px;
+  line-height: 50px;
+  list-style: none;
+}
+
+/* --PROFILE-- */
+.cover-profile {
+  background-image: url(/Users/skmtydi947/Portfolio_profile/images/profile.jpg);
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-color:rgba(255,255,255,0.2);
+  background-blend-mode:lighten;
+}
+
+.pf-container {
+  width: 100%;
+}
+
+.pf-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.pf-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: block;
+  text-align: left;
+  box-shadow:
+  0px 2px 5px rgba(0,0,0,0.7) inset,
+  0px 0px 0px 5px #795548;
+  background-size: cover;
+  background-color: #f0f0f0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 14px;
+}
+
+.pf-card {
+  width: 70%;
+  /* left: 27%; */
+  padding: 15px 30px;
+  margin-bottom: 10px;
+  background: rgba(100, 64, 51, 0.7);
+  text-shadow: 1px 1px 1px rgba(26, 27, 33, 0.8);
+  color: rgba(255,255,255,.9);
+}
+
+.pf-container h3 {
+  font-size: 28px;
+  overflow-wrap: anywhere;
+}
+
+/* -- WORKS -- */
+.cover-works {
+  background-image: url(/Users/skmtydi947/Portfolio_profile/images/works.jpg);
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
+  position: relative;
+}
+
+.works-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.work:hover {
+  transform: scale(1.05,1.05);
+}
+
+.card-img-top {
+  max-height: 600px;
+  height: 60%;
+  object-fit: scale-down;
+}
+
+/* --MODAL-- */
+.modal-title {
+  margin: 30px;
+}
+
+.modal-open {
+  cursor: pointer;
+  background: orange;
+  border: orange;
+  color: #fff;
+  padding: 10px 12px;
+}
+
+.modal-close__wrap {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+
+.modal-close {
+  background: transparent;
+  border-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  width: 28px;
+  display: block;
+  height: 28px;
+}
+
+.modal-close span {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background: black;
+  display: block;
+}
+
+.modal-close span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+.modal-close span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: grey;
+  opacity: .6;
+  display: none; 
+  z-index: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal {
+  width: 80%;
+  height: 80%;
+  border: 1px solid #000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  display: none; 
+  overflow: auto;  
+}
+
+.overlay.open {
+  display: block;
+}
+.modal.open {
+  display: block;
+}
+
+.title-logo {
+  width: 40%;
+}
+
+/* --MODAL_IMAGE-- */
+.choice-btn li img{
+  width: 90%;
+  height: 90%;
+  vertical-align: bottom;
+}
+
+.gallery{
+  margin:0 0 5px 0;
+}
+
+.choice-btn .slick-track {
+  transform: unset !important;
+}
+
+.wrapper{
+  width:94%;
+  max-width:900px;
+  margin:0 auto;
+}
+
+ul{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  color: #333;
+}
+
+a:hover,
+a:active{
+  text-decoration: none;
+}
+
+.gallery li img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.image img {
+  object-fit: cover;
+  width: 300px;
+  height:200px;
+}
+
+/* --CONTACT-- */
+.cover-contact {
+  background-image: url(/Users/skmtydi947/Portfolio_profile/images/contact.jpg);
+  background-size: 100% 100%;
+  min-height: 100vh;
+  background-color:rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
+  position: relative;
+}
+
+.contact-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* --footer-- */
+footer.footer-section {
+  background-color:  rgb(218, 208, 208);
+  min-height: 10px;
+  margin: 0;
+  padding-top: 0;
+}
+
+footer .copyright p {
+  display: inline-block;
+  color: black;
+  margin: auto;
+}
+
+/* --RESPONSIVE-- */
+@media screen and (max-width: 767px) { 
+  /* --RES_PROFILE-- */
+  .pf-row {
+    position: relative;
+    padding-top: 70px;
+    width: 100%;
+  }
+  
+  .pf-container h3 {
+    font-size: 15px;
+    overflow-wrap: anywhere;
+  }
+
+  .pf-circle {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 9rem;
+    top: 1rem;
+    z-index: 1;
+    margin: 0;
+  }
+
+  .pf-card {
+    margin: 0 auto;
+    text-align: center;
+  }  
+   
+  .title-logo {
+    width: 90%;
+    height: 90%;
+  }
+}

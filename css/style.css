@@ -113,7 +113,6 @@ h3 {
 
 /* --ABOUT-- */
 .cover-about {
-  background-image: url(/Users/skmtydi947/Portfolio_profile/images/about.jpg);
   background-size: 100% 100%;
   min-height: 100vh;
   background-color:rgba(255,255,255,0.4);
@@ -140,7 +139,7 @@ h3 {
 
 /* --PROFILE-- */
 .cover-profile {
-  background-image: url(/Users/skmtydi947/Portfolio_profile/images/profile.jpg);
+  background-image: url(https://github.com/skmtydi947/Portfolio_profile/blob/main/images/profile.jpg?raw=true);
   background-size: 100% 100%;
   min-height: 100vh;
   background-color:rgba(255,255,255,0.2);
@@ -192,7 +191,7 @@ h3 {
 
 /* -- WORKS -- */
 .cover-works {
-  background-image: url(/Users/skmtydi947/Portfolio_profile/images/works.jpg);
+  background-image: url(https://github.com/skmtydi947/Portfolio_profile/blob/main/images/works.jpg?raw=true);
   background-size: 100% 100%;
   min-height: 100vh;
   background-color:rgba(255,255,255,0.4);
@@ -350,7 +349,7 @@ a:active{
 
 /* --CONTACT-- */
 .cover-contact {
-  background-image: url(/Users/skmtydi947/Portfolio_profile/images/contact.jpg);
+  background-image: url(https://github.com/skmtydi947/Portfolio_profile/blob/main/images/contact.jpg?raw=true);
   background-size: 100% 100%;
   min-height: 100vh;
   background-color:rgba(255,255,255,0.4);

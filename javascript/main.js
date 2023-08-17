@@ -25,6 +25,13 @@ $(function () {
   });
 });
 
+// --NAVBAR--
+$(document).ready(function () {
+ $(".navbar-nav a").click(function() {
+ $(".navbar-collapse").collapse('hide');
+ });
+});
+
 // --MODAL--
 const overlay = $("#js-overlay");
 const close = $(".modal-close,#js-overlay");

@@ -17,19 +17,19 @@ $(document).ready(function () {
 // --HEADER--
 $(function () {
   $(window).on('scroll', function () {
-      if ($('.cover-about').height() < $(this).scrollTop()) {
-          $('.js-header').addClass('change-color');
+    if ($('.cover-about').height() < $(this).scrollTop()) {
+      $('.js-header').addClass('change-color');
     } else {
-          $('.js-header').removeClass('change-color');
+      $('.js-header').removeClass('change-color');
     }
   });
 });
 
 // --NAVBAR--
 $(document).ready(function () {
- $(".navbar-nav a").click(function() {
- $(".navbar-collapse").collapse('hide');
- });
+  $(".navbar-nav a").click(function () {
+    $(".navbar-collapse").collapse('hide');
+  });
 });
 
 // --MODAL--

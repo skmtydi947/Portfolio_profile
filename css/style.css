@@ -71,8 +71,8 @@ h3 {
   background-image: url(https://github.com/skmtydi947/Portfolio_profile/blob/main/images/top.jpg?raw=true);
   background-size: 100% 100%;
   min-height: 100vh;
-  background-color:rgba(255,255,255,0.4);
-  background-blend-mode:lighten;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
   position: relative;
 }
 
@@ -82,32 +82,34 @@ h3 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform:translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-.text{
+.text {
   animation: color-change 2s linear infinite;
-  margin:20px;
-  font-size:30px;
+  margin: 20px;
+  font-size: 30px;
   font-weight: bold;
   animation-duration: 5s;
 }
 
 @keyframes color-change {
-  0%,100%{
-	color:#1a491d;
+
+  0%,
+  100% {
+    color: #1a491d;
   }
 
-  25%{
-	color:#686321;
+  25% {
+    color: #686321;
   }
-  
-  50%{
-	color:#20587a;
+
+  50% {
+    color: #20587a;
   }
-  
-  75%{
-	color:#221a25;
+
+  75% {
+    color: #221a25;
   }
 }
 
@@ -115,8 +117,8 @@ h3 {
 .cover-about {
   background-size: 100% 100%;
   min-height: 100vh;
-  background-color:rgba(255,255,255,0.4);
-  background-blend-mode:lighten;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
   position: relative;
 }
 
@@ -142,8 +144,8 @@ h3 {
   background-image: url(https://github.com/skmtydi947/Portfolio_profile/blob/main/images/profile.jpg?raw=true);
   background-size: 100% 100%;
   min-height: 100vh;
-  background-color:rgba(255,255,255,0.2);
-  background-blend-mode:lighten;
+  background-color: rgba(255, 255, 255, 0.2);
+  background-blend-mode: lighten;
 }
 
 .pf-container {
@@ -165,8 +167,8 @@ h3 {
   display: block;
   text-align: left;
   box-shadow:
-  0px 2px 5px rgba(0,0,0,0.7) inset,
-  0px 0px 0px 5px #795548;
+    0px 2px 5px rgba(0, 0, 0, 0.7) inset,
+    0px 0px 0px 5px #795548;
   background-size: cover;
   background-color: #f0f0f0;
   background-repeat: no-repeat;
@@ -181,7 +183,7 @@ h3 {
   margin-bottom: 10px;
   background: rgba(100, 64, 51, 0.7);
   text-shadow: 1px 1px 1px rgba(26, 27, 33, 0.8);
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, .9);
 }
 
 .pf-container h3 {
@@ -194,8 +196,8 @@ h3 {
   background-image: url(https://github.com/skmtydi947/Portfolio_profile/blob/main/images/works.jpg?raw=true);
   background-size: 100% 100%;
   min-height: 100vh;
-  background-color:rgba(255,255,255,0.4);
-  background-blend-mode:lighten;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
   position: relative;
 }
 
@@ -207,7 +209,7 @@ h3 {
 }
 
 .work:hover {
-  transform: scale(1.05,1.05);
+  transform: scale(1.05, 1.05);
 }
 
 .card-img-top {
@@ -268,7 +270,7 @@ h3 {
   height: 100%;
   background: grey;
   opacity: .6;
-  display: none; 
+  display: none;
   z-index: 0;
   top: 0;
   left: 0;
@@ -284,13 +286,14 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
-  display: none; 
-  overflow: auto;  
+  display: none;
+  overflow: auto;
 }
 
 .overlay.open {
   display: block;
 }
+
 .modal.open {
   display: block;
 }
@@ -300,38 +303,38 @@ h3 {
 }
 
 /* --MODAL_IMAGE-- */
-.choice-btn li img{
+.choice-btn li img {
   width: 90%;
   height: 90%;
   vertical-align: bottom;
 }
 
-.gallery{
-  margin:0 0 5px 0;
+.gallery {
+  margin: 0 0 5px 0;
 }
 
 .choice-btn .slick-track {
   transform: unset !important;
 }
 
-.wrapper{
-  width:94%;
-  max-width:900px;
-  margin:0 auto;
+.wrapper {
+  width: 94%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-ul{
-  margin:0;
+ul {
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
-a{
+a {
   color: #333;
 }
 
 a:hover,
-a:active{
+a:active {
   text-decoration: none;
 }
 
@@ -344,7 +347,7 @@ a:active{
 .image img {
   object-fit: cover;
   width: 300px;
-  height:200px;
+  height: 200px;
 }
 
 /* --CONTACT-- */
@@ -352,8 +355,8 @@ a:active{
   background-image: url(https://github.com/skmtydi947/Portfolio_profile/blob/main/images/contact.jpg?raw=true);
   background-size: 100% 100%;
   min-height: 100vh;
-  background-color:rgba(255,255,255,0.4);
-  background-blend-mode:lighten;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
   position: relative;
 }
 
@@ -366,7 +369,7 @@ a:active{
 
 /* --footer-- */
 footer.footer-section {
-  background-color:  rgb(218, 208, 208);
+  background-color: rgb(218, 208, 208);
   min-height: 10px;
   margin: 0;
   padding-top: 0;
@@ -379,14 +382,15 @@ footer .copyright p {
 }
 
 /* --RESPONSIVE-- */
-@media screen and (max-width: 767px) { 
+@media screen and (max-width: 767px) {
+
   /* --RES_PROFILE-- */
   .pf-row {
     position: relative;
     padding-top: 70px;
     width: 100%;
   }
-  
+
   .pf-container h3 {
     font-size: 15px;
     overflow-wrap: anywhere;
@@ -405,8 +409,8 @@ footer .copyright p {
   .pf-card {
     margin: 0 auto;
     text-align: center;
-  }  
-   
+  }
+
   .title-logo {
     width: 90%;
     height: 90%;
